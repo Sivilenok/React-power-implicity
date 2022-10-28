@@ -35,14 +35,13 @@
         padding: 2px;
         width: 159px;
         height: 43px;
-        background: none;
         border: 2px solid;
-        overflow: hidden; 
         border-image: linear-gradient(to right, #FC4060, #8061FD); 
         border-image-slice: 1;
+        background: -webkit-linear-gradient(#FC4060, #8061FD);
         background-clip: unset;
-        color: #fff;
-        border-radius: 32px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
@@ -50,7 +49,6 @@
     &__dots {
         padding: 16px;
         gap: 32px;
-
         width: 240px;
         height: 48px;
     }
