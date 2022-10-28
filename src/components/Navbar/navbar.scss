@@ -1,0 +1,46 @@
+.logo {
+    width: 38px;
+    height: 47px;
+}
+
+.navigate {
+    color: #A0A3A7;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.btn {
+    justify-self: end;
+    align-items: center;
+    width: 140px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    background: linear-gradient(93.22deg, #E1E1E1 8.37%, #FFFFFF 99.95%);
+    box-shadow: 0px 4px 50px rgba(37, 37, 37, 0.08), inset 1px 1px 1px rgba(135, 135, 135, 0.32);
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.navbar {
+    padding: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.list li {
+    padding: 0 15px;
+}
