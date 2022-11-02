@@ -5,8 +5,8 @@ import './styles/index.scss';
 
 export const App = () => {
   return (
-    <div className="container">
-      <div className="wrapper">
+    <div className="wrapper">
+      <div className="container">
         <Navbar />
         <Slider />
       </div>
